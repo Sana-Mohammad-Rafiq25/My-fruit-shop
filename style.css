@@ -75,7 +75,7 @@ strong {
 }
 
 .button-section {
-    flex-wrap: wrap;
+    display: flex;
     justify-content: space-around;
 }
 
