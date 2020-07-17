@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e6a1d4;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header{
+/* background-image: url(https://image.freepik.com/free-vector/fruits-set-still-life-illustration_98292-3772.jpg); */
+
+/* justify-content:center;
+margin-left: 50px;
+
+}  */
+
+header {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #391375;
+    font-family: 'Shrikhand', cursive;
+    text-shadow: #e6a1d4;
+}
+
+#enterBudget {
+    padding: 15px 30px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#budget {
+    margin-top: -25%;
+    padding-left: 5%;
+}
+
+#budget button {
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #391375;
+    color: #e6a1d4;
+    border-color: #e6a1d4;
+    font-family: 'Shrikhand', cursive;
+    outline: none;
+}
+
+strong {
+    color: #391375;
+}
+
+#budget>button:hover {
+    background-color: #e6a1d4;
+    color: #391375;
+    border-color: #391375;
+    outline: none;
+}
+
+.fruit-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.Apple, .Mango, .banana {
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+.button-section {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 6px;
+}
+
+/* @media (max-width: 800px) {
+    .fruit-product {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .button-section {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+} */
