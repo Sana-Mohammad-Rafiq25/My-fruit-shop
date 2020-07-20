@@ -7,7 +7,7 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #e6a1d4;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 /* header{
@@ -29,7 +29,7 @@ h1, h2 {
     text-shadow: #e6a1d4;
 }
 
-#enterBudget {
+#enter-budget {
     padding: 15px 30px;
     margin-top: 5%;
     text-align: center;
@@ -83,16 +83,100 @@ img {
     border-radius: 6px;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
+    body {
+        text-align: center;
+    }
+    #shop-image {
+        height: 45%;
+        width: 45%;
+        margin-left: 45%;
+    }
+    #budget {
+        padding: 15px 30px;
+        margin-top: -35%;
+        text-align: center;
+        margin-left: -45%;
+    }
     .fruit-product {
         width: 100%;
         height: auto;
         flex-direction: column;
         justify-content: space-around;
+        margin-top: -1%;
     }
     .button-section {
         height: auto;
         flex-direction: column;
         justify-content: space-around;
     }
-} */
+    #apple-btn {
+        margin-top: -98%;
+        /* margin-left: -8%; */
+    }
+    #mango-btn {
+        margin-top: 46%;
+        /* margin-left: -78%; */
+    }
+    #banana-btn {
+        margin-top: 46%;
+        /* margin-left: -78%; */
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    body {
+        text-align: center;
+        
+    }
+    #shop-image {
+        height: 25%;
+        width: 30%;
+        margin-left: 55%;
+        margin-top: -20%;
+    }
+    #budget {
+        padding: 10px 25px;
+        margin-top: -5%;
+        text-align: center;
+        margin-left: -45%;
+    }
+    #enter-budget {
+        padding: 9px 20px;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: 5%;
+    }
+    #budget button {
+        padding: 9px;
+    }
+    .fruit-product {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: -1%;
+        /* margin-left: %; */
+    }
+    .button-section {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .mango>img {
+        height: 10px;
+        width: 150px;
+    }
+    #apple-btn {
+        margin-top: -158%;
+        /* margin-left: -8%; */
+    }
+    #mango-btn {
+        margin-top: 46%;
+        /* margin-left: -78%; */
+    }
+    #banana-btn {
+        margin-top: 70%;
+        /* margin-left: -78%; */
+    }
+}

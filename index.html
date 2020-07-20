@@ -21,8 +21,10 @@
     </header>
     <section id="budget">
 
-        <input type="number" id="enterBudget" placeholder="Enter Your Budget">
+        <input type="number" id="enter-budget" placeholder="Enter Your Budget">
         <button onclick="inputBudget()">click to add</button>
+        <!-- <h2 id="h2">Your budget is:</h2> -->
+        <p id="budget-value"></p>
     </section>
     <div class="fruit-product">
 
@@ -50,31 +52,33 @@
 
     </div>
     <div class="button-section">
-        <div class="apple-btn">
+        <div id="apple-btn">
             <strong>Rs.28</strong>
             <button onclick="addApple()">+</button>
             <span id="quantityOfApple">0</span>
             <button onclick="minusApple()">-</button>
 
         </div>
-        <div class="Mango-btn">
+        <div id="mango-btn">
             <strong>Rs.25</strong>
             <button onclick="addMango()">+</button>
             <span id="quantityOfMango">0</span>
             <button onclick="minusMango()">-</button>
-        
+
         </div>
-        <div class="banana-btn">
+        <div id="banana-btn">
             <strong>Rs.6</strong>
             <button onclick="addBanana()">+</button>
             <span id="quantityOfBanana">0</span>
             <button onclick="minusBanana()">-</button>
-        
+
         </div>
     </div>
     <div class="total-amount">
-        
-        <h3 id="quantity" onclick="checkQuantity()">Quantity of fruits</h3>
+
+        <h3> Quantity of fruits
+            <span id="quantity" onclick="checkQuantity()">0</span>
+        </h3>
         <h3>Total
             <span id="total">0</span>
         </h3>
@@ -82,8 +86,8 @@
             Remaining Balance:
             <span id="remainingBalance">0</span>
         </h3>
-    
-    
+
+
     </div>
 
 
