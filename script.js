@@ -30,9 +30,10 @@ function inputBudget() {
     budgetValue.innerHTML = "Your budget is:" + enterBudget;
     // Balance = enterBudget - total;
 
-    if (enterBudget <= 0) {
-        alert("first enter your budget!");
-    } else if (enterBudget <= 5) {
+    // if (enterBudget <= 0) {
+    //     alert("first enter your budget!");
+    // } else 
+    if (enterBudget <= 5) {
 
         alert("Your Budget is not sufficient!");
 
@@ -52,8 +53,8 @@ function calculateBalance() {
     Balance = enterBudget - total;
 
     console.log("remainingBalance");
-    inputBudget();
-    checkTotal();
+    inputBudget()
+    checkTotal()
 }
 
 
@@ -109,18 +110,18 @@ function minusApple() {
     // alert("fruit is already zero");}
     calculateTotalOfApple();
     calculateBalance();
-
+    inputBudget()
 }
 
 
 
 
-function checkResult() {
-    let isBuyingExceed = false;
-    if (isBuyingExceed > enterBudget) {
-        alert("YOur Budget is out");
-    }
-}
+// function checkResult() {
+//     let isBuyingExceed = false;
+//     if (isBuyingExceed > enterBudget) {
+//         alert("YOur Budget is out");
+//     }
+// }
 
 function calculateTotalOfMango() {
     totalCostOfMango = quantityOfMango * priceOfMango;
@@ -128,8 +129,6 @@ function calculateTotalOfMango() {
     checkTotal();
     checkQuantity();
     calculateBalance();
-
-
 }
 
 function addMango() {
@@ -156,7 +155,6 @@ function calculateTotalOfBanana() {
     checkTotal();
     checkQuantity();
     calculateBalance();
-    inputBudget();
 }
 
 function addBanana() {
